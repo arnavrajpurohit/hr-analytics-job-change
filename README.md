@@ -1,12 +1,12 @@
-# 💼 HR Analytics: Predicting Job Change of Data Scientists
+#  HR Analytics: Predicting Job Change of Data Scientists
 
-## 📌 Overview
+## Overview
 
 This project focuses on understanding and predicting the likelihood of job changes among data science professionals. By leveraging a combination of demographic and experiential factors, we performed exploratory data analysis, feature engineering, and classification modeling. An interactive dashboard was also created to visualize patterns.
 
 ---
 
-## 🗂️ Table of Contents
+## Table of Contents
 
 - [Dataset Description](#dataset-description)
 - [Objective](#objective)
@@ -20,7 +20,7 @@ This project focuses on understanding and predicting the likelihood of job chang
 
 ---
 
-## 📦 Dataset Description
+## Dataset Description
 
 The dataset includes demographic, educational, and employment-related information of data science professionals:
 
@@ -30,32 +30,32 @@ The dataset includes demographic, educational, and employment-related informatio
 
 ---
 
-## 🎯 Objective
+## Objective
 
 To predict whether a candidate is likely to look for a new job based on various features using classification techniques.
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### 🔍 Missing Values
 Visualizing percentage of missing data per column:
 
 ![Missing Values](images/missing-values-plot.png)
 
-### 🎯 Target Class Distribution
+### Target Class Distribution
 Majority of the candidates are **not** looking for a new job:
 
 ![Target Distribution](images/target-distribution.png)
 
-### 📈 Experience Distribution
+### Experience Distribution
 Shows the distribution of years of experience:
 
 ![Experience Distribution](images/experience-distribution.png)
 
 ---
 
-## 🛠️ Feature Engineering
+Feature Engineering
 
 - Cleaned `experience` and `last_new_job` columns by converting ranges and symbols to numeric.
 - Encoded categorical columns using `LabelEncoder`.
@@ -63,7 +63,7 @@ Shows the distribution of years of experience:
 
 ---
 
-## 🤖 Modeling & Evaluation
+Modeling & Evaluation
 
 A Random Forest Classifier was used:
 
@@ -80,7 +80,7 @@ Accuracy: 78%
 
 ---
 
-## 🔍 Feature Importance
+Feature Importance
 
 Top contributing features (according to Random Forest):
 
@@ -94,7 +94,7 @@ Top contributing features (according to Random Forest):
 
 ---
 
-## 📊 Interactive Dashboard
+📊 Interactive Dashboard
 
 A dashboard was created using **Plotly Dash** for visualizing key metrics and distributions interactively.
 
@@ -102,7 +102,7 @@ A dashboard was created using **Plotly Dash** for visualizing key metrics and di
 
 ---
 
-## 🚀 How to Run the Dashboard
+How to Run the Dashboard
 
 1. Clone this repository:
    ```bash
@@ -113,25 +113,16 @@ A dashboard was created using **Plotly Dash** for visualizing key metrics and di
 4. Visit:
 http://127.0.0.1:8050/
  
----
 
-#### 2. Add a closing section like:
 
-```markdown
----
-
-## ✅ Conclusion
+Conclusion
 
 This project demonstrates how HR analytics can be used to understand and predict job change behavior in data scientists. By applying data preprocessing, EDA, modeling, and visualization, we derived actionable insights and built an interactive tool for exploration.
 
----
 
-## 👨‍💻 Author
+
+Author
 
 Arnav — Aspiring Data Scientist passionate about solving real-world problems using data.
 
----
 
-## 📄 License
-
-MIT License
